@@ -1,0 +1,108 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.main {
+    background-color: #ffffff;
+    max-width: 965px;
+    padding: 110px 0;
+    margin: 0 auto;
+} 
+
+.services {
+    color: #9d9d9d;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.services .caption {
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    
+}
+
+.services li {
+    text-align: center;
+    margin: auto 30px;
+    padding: 0 15px;
+    line-height: 20px;
+}
+
+.services .icon {
+    background-color: #1275b9;
+    width: 65px;
+    height: 65px;
+    margin: 0 0 16px;
+    display: inline-block;
+    border-radius: 33px;
+}
+
+.services .icon-one {
+    border: 1px solid #1275b9;
+    width: 65px;
+    height: 65px;
+    margin: 0 0 16px;
+    display: inline-block;
+    border-radius: 33px;
+}
+
+img {
+    padding: 19px 0 0 0;
+}
+
+
