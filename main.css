@@ -90,19 +90,27 @@ h1, h2 {
     margin: 0 0 16px;
     display: inline-block;
     border-radius: 33px;
+    border: 1px solid #2a69a6;
 }
 
-.services .icon-one {
-    border: 1px solid #1275b9;
-    width: 65px;
-    height: 65px;
-    margin: 0 0 16px;
-    display: inline-block;
-    border-radius: 33px;
-}
-
-img {
+i {
+    color: #ffffff;
+    font-size: 24px;
     padding: 19px 0 0 0;
+    
 }
+
+.icon:hover {
+    border: 1px solid #2a69a6;
+    background-color: #ffffff;
+}
+
+i:hover{
+    color:  #2a69a6;
+}
+
+
+
+
 
 
